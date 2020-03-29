@@ -3,5 +3,5 @@ if x > 10:                  #jeśli spełnione to dalsza część nie jest spraw
     print("WIiększy")
 elif x % 2 == 0:
     print("Parzysty")
-else
+else:
     print("Żaden z warunków nie jest spełniony")
