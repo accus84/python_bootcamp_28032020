@@ -12,6 +12,9 @@ elif operacja == "-":
 elif operacja == "*":
     print(f"Wynik {liczba_a * liczba_b}")
 elif operacja == "/":
-    print(f"Wynik {liczba_a / liczba_b}")
+    if liczba_b != 0:
+        print(f"Wynik {liczba_a / liczba_b}")
+    else:
+        print(f"Nie można dzielić przez {liczba_b}")
 else:
     print("Nie ma takiej operacji")
