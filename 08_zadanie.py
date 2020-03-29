@@ -5,5 +5,5 @@ szerokosc = int(input("Podaj szerokosc: "))
 wysokosc = int(input("Podaj wysokosc: "))
 print()
 print(f"""
-Czy objętość większa jest większa od 1 litra? {dlugosc * szerokosc * wysokosc > 100}   
+Czy objętość jest większa od 1 litra? {dlugosc * szerokosc * wysokosc > 100}   
 """)
