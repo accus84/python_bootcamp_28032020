@@ -7,3 +7,4 @@ while licznik < 11:
     tablica.append(element)
     licznik += 1
 print(f"Suma z {len(tablica)} liczb wynosi {sum(tablica)}")
+print(f"Średnia z {len(tablica)} liczb wynosi {sum(tablica) / len(tablica)}")
