@@ -1,10 +1,5 @@
-#Napisz program, który na podst liczb obliczy wynik zadanej operacji (dod, odejm, mn, dziel).
-# W przypadku podania niepraw operacji progam ma wyświetlić odp komunikayt o błędzie
-""""
-text = "ala"
-if text =="ala":
-    print("To jest ten tekst")
-"""
+#Napisz program, który na podstawie liczb obliczy wynik zadanej operacji (dod, odejm, mn, dziel).
+#W przypadku podania nieprawidłowej operacji progam ma wyświetlić odpowiedni komunikayt o błędzie
 
 liczba_a = int(input("Podaj pierwszą liczbę: "))
 liczba_b = int(input("Podaj drugą liczbę: "))
