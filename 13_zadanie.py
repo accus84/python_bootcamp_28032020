@@ -6,5 +6,5 @@ while day < 8:
     print(temp)
     day +=1
     temp_total += temp
-print(f"Suma temperatur 7 dni wynosi {int(temp_total / 7)}")
+print(f"Średnia temperatur dla 7 dni wynosi {round((temp_total / 7), 2)}")
 
