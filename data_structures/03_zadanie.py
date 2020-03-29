@@ -1,4 +1,4 @@
-#Napisz program zliczający wystąpienieliczb dodatnich i ujemnych w liście
+#Napisz program zliczający wystąpienie liczb dodatnich i ujemnych w liście
 dodatnie = 0
 ujemne  = 0
 dane = [10, 20, -30, -500, 4, -220]
