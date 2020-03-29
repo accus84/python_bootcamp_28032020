@@ -5,7 +5,7 @@ min_x = None
 max_x = None
 
 
-while True:
+while True:             #pętla wykonuje się nieokreśloną ilość razy
     liczba = input("Wprowadz liczbę lub x aby zakończyć działanie programu ")
     if liczba == "x":
         break
@@ -14,7 +14,6 @@ while True:
         min_x = liczba
     if max_x is None or liczba > max_x:
         max_x = liczba
-
 
 print(f"Wartość maksymalna: {max_x}")
 print(f"Wartość minimalna: {min_x}")
