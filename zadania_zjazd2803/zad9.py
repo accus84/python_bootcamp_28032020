@@ -1,16 +1,10 @@
-#Napisz program "numer.py", który zamieni wprowadzony przez użytkownika ciąg cyfr na formę tekstową:
-# a) znaki nie będące cyframi mają być ignorowane
-# b) konwertujemy cyfry, nie liczby, a zatem:
+import re
 
 words = ("zero", "jeden", "dwa", "trzy", "cztery", "pięć", "sześć", "siedem", "osiem", "dziewięć")
+char = list(input("Wprowadź liczbę: "))
 
-digits = tuple(input("Wprowadź liczbę: "))
+only_digits = list([i for i in char if i.isnumeric()])
 
-
-#print(digits)
-#for i in digits:
-#    i = int(i)
-#    print(words[i], end = " ")
-
-
-
+for i in only_digits:
+    i = int(i)
+    print(words[i], end = " ")
