@@ -5,5 +5,5 @@
 #E L T A G R
 
 text = input("Podaj jakiś tekst: ")
-print(text[0::2])
-print(text[1::2])
+print(text[0::2])   #od zerowego co drugi element
+print(text[1::2])   #od pierwszego co drugi element

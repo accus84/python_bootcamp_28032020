@@ -1,0 +1,1 @@
+# Zaimplementuj funkcję, która na podstawie podanej listy stworzy nową listę zawierającą tylko elementy oryginalnej kolekcji z podanego zakresu
