@@ -9,3 +9,7 @@ def sortowanie(l):
     return l
 
 print(sortowanie(lista))
+
+#zad4
+zrodla = {"a": 10, "b":30}
+print(zrodla.get("c", "brak"))
