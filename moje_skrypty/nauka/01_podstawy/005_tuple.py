@@ -1,4 +1,5 @@
 #krotka (tupla)
+
 x = tuple()
 x = (1, 2, "ala", 2.0, "ma kota", 2)
 print(x)

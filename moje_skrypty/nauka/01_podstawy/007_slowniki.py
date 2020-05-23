@@ -33,8 +33,8 @@ print(dict_3.items())                   #dict_items([('x', 'ala'), ('y', 'kot')]
 print(dict_3.get("x"))                  #wypisanie wartości dla klucza "x"
 print(dict_3.get("z", "brak"))          #wypisanie włownika dla klucza "z", a w przypadku braku tego klucza wypisanie "brak"
 
-if 'z' in dict_3:                       #wypisanie włownika dla klucza "z", a w przypadku braku tego klucza wypisanie "brak" - to samo co powyżej ale za pomocą pętli
-    print(dict_3["z"])
+if 'z' in dict_3:                       #wypisanie słownika dla klucza "z", a w przypadku braku tego klucza wypisanie "brak" - to samo co powyżej ale za pomocą pętli
+    print(dict_3["z"])                  #nie ma z w słowniku dict_3
 else:
     print("brak")                       #brak
 

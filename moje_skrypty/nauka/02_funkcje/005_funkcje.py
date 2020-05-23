@@ -16,12 +16,12 @@ def zlacz_teksty(*args):                            #args to nieokreślona liczb
 print(zlacz_teksty(t1,t2))                          #A
                                                     #B
 
-print(zlacz_teksty(t1,t2, "cos"))                   #A
+print(zlacz_teksty(t1,t2, "cos",))                   #A
                                                     #B
                                                     #cos
 
 #funkcja z *args i **kwargs
-def zlacz_teksty(*args, **kwargs):      #args to nieokreślona liczba argumentów (to jest tupla), kwargs to słownik
+def zlacz_teksty(*args, **kwargs):                  #args to nieokreślona liczba argumentów (to jest tupla), kwargs to słownik
     text = "\n".join(args)
     for k, v in kwargs.items():
         text = text.replace(k, str(v))              #w text zamień ze k (k to jest klucz) na wartość v ze słownika - kwargs to słownik
@@ -61,7 +61,7 @@ print(t.replace("j", "-"))                                          #-akis tekst
 def formatuj(*teksty, **znaczniki):
     text = "\n".join(teksty)                                        #każdy *teksty jest połączony z nową linią
     for znacznik, wartosc in znaczniki.items():                     #znacznikiem domyślnie jest cena, wartośćią domyślnie jest 10
-        text = text.replace("$"+znacznik, str(wartosc))             #w tekście $cena zastąp wartością 10 (tylko jeśli jest słowo cena w kwargs)
+        text = text.replace("$"+znacznik, str(wartosc))             #w całym tekście zastąp $cena wartością 10 (tylko jeśli jest słowo cena w kwargs)
     return text
 
 print(formatuj('koszt $cena PLN', 'kwota $cena brutto', cena=10))

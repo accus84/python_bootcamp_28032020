@@ -25,6 +25,7 @@ print(zliczenia)                            #na koniec wyświetl zliczenia
 #drugi sposób
 for i in napis:                             #osobno dla: a l a m a k o t a
     zliczenia[i] = zliczenia.get(i, 0) + 1  #jeśli a jest w słowniku to wartośćią dla a będzie wartość a, natomiast jeśli nie ma to wartością początkową będzie 0 a następnie dodanie 1
+
 #trzeci sposób
 for i in napis:
     zliczenia[i] = napis.count(i)
@@ -38,3 +39,14 @@ zliczenia = defaultdict(int)
 for i in napis:
     zliczenia[i] += 1
 print("333: ", zliczenia)
+
+#zlicz wystapienia liter w zadanym napisie
+napis = "to jest jakis napis"
+
+liczenie = dict()
+for i in napis:
+    if i in liczenie:
+        liczenie[i] = liczenie[i] + 1
+    else:
+        liczenie[i] = 1
+print(liczenie)

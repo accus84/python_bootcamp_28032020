@@ -35,10 +35,10 @@ for i in range(len(cyfry)):                 # zakres długości na 3 zaczynając
 print(cyfry)
 
 #uporządkuj rosnąco
-l = [5, -3, 0, 14, 9, -5]
-for i in range(len(l)):
-    for k in range(i +1 , len(l)):
-        if l[k] < l[i]:
-        #jeśli następna cyfra mniejsza od cyfry o indeksie 0
-            l[i], l[k] = l[k], l[i]             #to zamień
-print(l)
+lista = [0, -5, -2, 6]
+for i in range(len(lista)):              #zakres na długość listy
+    for k in range(i + 1, len(lista)):
+        if lista[k] < lista[i]:
+            lista[i], lista[k] = lista[k], lista[i]
+print(lista)
+

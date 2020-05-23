@@ -48,19 +48,16 @@ print(sort(lista))
 
 #sortoanie przez wybieranie + funkcja
 lista = [-5, 0, 12, 5, 16, 6, 4, -3]
-for i in range(len(lista)):
-    for k in range(i+1, len(lista)):
-        if lista[k] < lista[i]:                         #jeśli k (czyli następna liczba) jest mnejsza niż pierwsza to zamiań
-            lista[k], lista[i] = lista[i], lista[k]
-print(lista)
 
 def sortowanie(l):
     for i in range(len(l)):
         for k in range(i + 1, len(l)):
-            if l[k] < l[i]:                             # jeśli k (czyli następna liczba) jest mnejsza niż pierwsza to zamiań
+            if l[k] < l[i]:
                 l[k], l[i] = l[i], l[k]
-    print(l)
+    return l
 
-jakas_lista = [-6, 7, 9, 3]
+print(sortowanie(lista))
 
-sortowanie(jakas_lista)                                 #[-6, 3, 7, 9]
+
+
+

@@ -42,4 +42,3 @@ print(reku_print(text))
         #return reku_print(text[len(text) -1])
 
 
-
