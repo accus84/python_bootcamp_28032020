@@ -1,0 +1,5 @@
+po instalacji odpalamy z terminala
+jupyter notebook
+i otworzy się strona
+http://localhost:8888/tree/moje_skrypty
+teraz po prawej dajemy new - python3 i otworzy się nowe pole z "In: "
